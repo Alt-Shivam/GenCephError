@@ -1,4 +1,5 @@
-sudo su
+# Get sudo working
+sudo -l 
 
 sudo apt-get update
 sudo apt-get install --no-install-recommends -y git
