@@ -152,6 +152,8 @@ helm upgrade --install ingress-ceph ${HELM_CHART_ROOT_PATH}/ingress \
   ${OSH_EXTRA_HELM_ARGS_INGRESS} \
   ${OSH_EXTRA_HELM_ARGS_INGRESS_CEPH}
 
+kubectl label nodes kind-control-plane kind-worker kind-worker2 kind-worker3 openstack-control-plane=enabled
+
 
 
 
