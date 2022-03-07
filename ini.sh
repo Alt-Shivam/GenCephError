@@ -7,13 +7,16 @@ sudo apt-get install --no-install-recommends -y git
 git clone https://opendev.org/openstack/openstack-helm-infra.git /opt/openstack-helm-infra
 git clone https://opendev.org/openstack/openstack-helm.git /opt/openstack-helm
 
-cd /opt/openstack-helm
+
 
 git clone https://github.com/Alt-Shivam/UbuntuMachineSetup.git
 
 chmod 777 Start.sh
 
 ./Start.sh
+
+cd /opt/openstack-helm
+
 
 
 tee conf.yaml << EOF
