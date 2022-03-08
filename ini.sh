@@ -25,7 +25,6 @@ chmod 777 Start.sh
 
 cd /opt/openstack-helm
 
-
 tee conf.yaml << EOF
 # three node (two workers) cluster config
 kind: Cluster
