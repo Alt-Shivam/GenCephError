@@ -119,6 +119,11 @@ pod:
 EOF
 fi
 
+
+
+kubectl label nodes kind-control-plane kind-worker kind-worker2 kind-worker3 openstack-control-plane=enabled
+
+
 helm upgrade --install ingress-kube-system ${HELM_CHART_ROOT_PATH}/ingress \
   --namespace=kube-system \
   --values=/tmp/ingress-kube-system.yaml \
@@ -151,7 +156,6 @@ helm upgrade --install ingress-ceph ${HELM_CHART_ROOT_PATH}/ingress \
   ${OSH_EXTRA_HELM_ARGS_INGRESS} \
   ${OSH_EXTRA_HELM_ARGS_INGRESS_CEPH}
 
-kubectl label nodes kind-control-plane kind-worker kind-worker2 kind-worker3 openstack-control-plane=enabled
 
 
 
