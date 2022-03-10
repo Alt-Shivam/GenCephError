@@ -8,8 +8,6 @@ git clone https://opendev.org/openstack/openstack-helm-infra.git /opt/openstack-
 git clone https://opendev.org/openstack/openstack-helm.git /opt/openstack-helm
 
 
-
-
 git clone https://github.com/Alt-Shivam/UbuntuMachineSetup.git
 
 cd UbuntuMachineSetup/
