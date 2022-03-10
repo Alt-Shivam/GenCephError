@@ -18,7 +18,6 @@ sudo cp Start.sh ../
 
 cd ..
 
-
 chmod 777 Start.sh
 
 ./Start.sh
