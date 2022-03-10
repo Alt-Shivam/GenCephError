@@ -83,8 +83,6 @@ make -C ${HELM_CHART_ROOT_PATH} helm-toolkit
 export OSH_DEPLOY_MULTINODE=True
 
 
-
-
 export HELM_CHART_ROOT_PATH="${HELM_CHART_ROOT_PATH:="${OSH_INFRA_PATH:="../openstack-helm-infra"}"}"
 : ${OSH_EXTRA_HELM_ARGS_INGRESS:="$(./tools/deployment/common/get-values-overrides.sh ingress)"}
 
