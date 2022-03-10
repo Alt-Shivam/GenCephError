@@ -153,10 +153,3 @@ helm upgrade --install ingress-ceph ${HELM_CHART_ROOT_PATH}/ingress \
   ${OSH_EXTRA_HELM_ARGS_INGRESS} \
   ${OSH_EXTRA_HELM_ARGS_INGRESS_CEPH}
 
-
-
-
-
-
-
-
